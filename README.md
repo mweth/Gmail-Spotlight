@@ -19,11 +19,30 @@ What it won't flag? Ads, receipts, or group emails with other coworkers.
 3. **Content Inspection:** Emails containing specified phrases (like "unsubscribe", "privacy policy", etc.) are excluded.
 4. **Recipient Verification:** If an email has recipients from your domain other than you, it's labeled accordingly.
 
+## 📌 Examples
+Presume your email is Me@here.com.
+
+1. An email sent from John@**X**.com to Me@**here**.com will be flagged. 📌
+2. An email sent from John@**X**.com to Me@**here**.com and Coworker@**somewhereElse**.com will be flagged. 📌
+3. An email sent from John@**X**.com to Me@**here**.com and Coworker@**here**.com will not be flagged.
+
+4. An email sent from Someone@**here**.com to me@**here**.com will be flagged.📌
+5. An email sent from Someone@**here**.com to me@**here**.com, notme@**here**.com, alsonotme@**here**.com will not be flagged.
+
+6. A promotional email sent from noreply@business.com to me@here.com will not be flagged. 
+7. A purchase receipt from store@business.com to me@here.com will not be flagged.
+   
+9. An email inviting you to lunch from banker@**business**.com to me@**here**.com will be flagged.📌
+10. An email inviting you to lunch from banker@**business**.com to me@**here**.com, friend@**elsewhere**.com will be flagged.📌
+11. An email inviting you to lunch from banker@**business**.com to me@**here**.com and co-worker@**here**.com will not be flagged.
+
 ## 🚀 Setup Instructions
 
 1. **Script Implementation:** 
-   - Initiate a new Google Apps Script project.
-   - Paste the provided script into this project.
+   - Initiate a new [Google Apps Script project](script.google.com).
+   - Paste the text of Main.GS into the project.
+   - Go to project setting and enable showing the manifest file.
+   - Paste the text of appscript.json into your appscript file.
    - Tweak the configuration constants in the script as per your requirements.
 
 2. **API Configuration (Optional but Recommended):**
