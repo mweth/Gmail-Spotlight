@@ -1,6 +1,6 @@
 # 📧 Email Organizer for Gmail
 
-Organize your Gmail inbox effectively and never miss an important email! The primary aim of this tool is to help you identify emails that are **exclusively sent to you** within your organization, ensuring they stand out from the clutter. By doing so, the tool helps users separate the human-sent, direct emails from transactional or promotional emails.
+Organize your Gmail inbox effectively and never miss an important email! The primary aim of this tool is to help you identify emails that are sent by a human **exclusively sent to you**, ensuring they stand out from the clutter. By doing so, the tool helps users separate the human-sent, direct emails from transactional or promotional emails.  Don't let an important email slip through the cracks.  
 
 ## 🌟 Features
 
@@ -12,7 +12,7 @@ Organize your Gmail inbox effectively and never miss an important email! The pri
 ## 📂 How the Filter Works
 
 1. **Return-Path Check:** Emails are first inspected for a match between the 'From' address and the 'Return-Path'. Mismatches often hint at promotional or bulk emails.
-2. **Domain Focus:** The tool focuses on emails sent from within your domain. If you're the sole recipient, it's highlighted. Otherwise, different labels can be applied based on your configuration.
+2. **Domain Focus:** The tool helps you avoid missing an important internal email sent solely to you. If you're the sole recipient of an internal email, it's highlighted. Otherwise, different labels can be applied based on your configuration.
 3. **Content Inspection:** Emails containing specified phrases (like "unsubscribe", "privacy policy", etc.) are excluded.
 4. **Recipient Verification:** If an email has recipients from your domain other than you, it's labeled accordingly.
 
