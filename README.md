@@ -1,6 +1,9 @@
-# 📧 Email Organizer for Gmail
+# 📧 Gmail Spotlight
 
-Organize your Gmail inbox effectively and never miss an important email! The primary aim of this tool is to help you identify emails that are sent by a human **exclusively sent to you**, ensuring they stand out from the clutter. By doing so, the tool helps users separate the human-sent, direct emails from transactional or promotional emails.  Don't let an important email slip through the cracks.  
+If you use Gmail and get asked to "dig through your inbox" for a lost email, this tool's for you.
+"Spotlight" flags emails sent just to you by an actual person.  It is designed to catch those one-off emails that frequently fall through the cracks.  If opposing counsel turns a large group email into a 1:1 chat, it'll flag it. If someone from your work sends an email only to you, it flags that too. Even if it's an email to you and a hundred others, if you are the only person at your office to receive it, Spotlight will catch it.
+
+What it won't flag? Ads, receipts, or group emails with other coworkers.
 
 ## 🌟 Features
 
